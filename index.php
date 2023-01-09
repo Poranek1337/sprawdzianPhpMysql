@@ -47,3 +47,14 @@
     </form>
 </body>
 </html>
+
+<!--DROP DATABASE IF EXISTS `2a`;
+<CREATE DATABASE `2a`;
+USE `2a`;
+CREATE TABLE `klasa` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`imie` varchar(255) NOT NULL,
+`nazwisko` varchar(255) NOT NULL,
+`data` date NOT NULL,
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;-->
