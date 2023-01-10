@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
     if ($result) {
         header("Location: index.php");
     } else {
-        echo "Coś się popsuło (błąd dodawania użytkownika)";
+        echo "Failed to add user";
     }
 }
 
